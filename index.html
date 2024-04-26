@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vinay Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/74d72db6e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Vinay</span> From India</h1>
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/face.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Certainly! Here's an "About" section tailored to your background and aspirations as a Full Stack Developer:
+                        
+                        Welcome to my profile! I am a dedicated Full Stack Developer with comprehensive training from iHub Technologies in Hyderabad. My passion lies in crafting robust solutions that seamlessly integrate backend and frontend technologies. With expertise in Python, Django, HTML, CSS, Bootstrap, and JavaScript, I am equipped to take on diverse coding challenges and deliver innovative projects.
+                        
+                        During my training at iHub Technologies, I honed my skills in both backend and frontend development, gaining hands-on experience in building responsive web applications and dynamic user interfaces. I thrive in fast-paced environments where creativity and problem-solving skills are essential, and I am constantly seeking opportunities to push the boundaries of technology  
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentag('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentag('Education')">Education</p>
+                        <p class="tab-links" onclick="opentag('Project Exprience')">Project Exprience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>Bootstrap</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>Django</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Jaagruthi Degree and PG College,Yadadri Bhuvanagiri Telangana	<br>
+                                Bachelor’s Degree, BSc (Bachelor of Science) Data Science (8.7 CGPA) &nbsp;2020-2023 
+                                </span></li>
+                            <li><span>SR Junior College, Alair, Yadadri Bhuvanagiri Telanagana Intermediate MPC (80.5%) 2018-2020</span></li>
+                            <li><span>Zilla Parishad High School, Alair, Yadadri Bhuvanagiri Telanagana <br>
+                                Secondary School of Certificate (8.5 CGPA)2017-2018
+                                </span></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Project Exprience">
+                        <ul>
+                            <li><b>Office Employee Management System</b><br><span>Employee Information Management Effortlessly manage and organize crucial employee details such as First 
+                                Name, Last Name, Salary, Bonus, Phone Number, Role, Department, Location, and Hiredate. The system 
+                                provides a user-friendly interface to add, edit, and delete employee records with ease.<br><b>Technologies Used:</b> Python, Django, MySQL, HTML, CSS, Bootstrap</span></li>
+                                <li><b>Product Management System</b> <span><br>
+                                    This project is a Product Management System for shirts and pants, built with HTML, CSS, Bootstrap, JavaScript, Python Django, and MySQL. It enables users to perform CRUD operations (Create, Read, Update, Delete) on shirt and pant products<br><b>Technologies used:</b>HTML, CSS, JavaScript,Bootstrap,Python, Django,MySQL, Django REST API, Git, XAMPP</span></li>
+                                
+
+                            
+                            <li><b>Inventory Management System</b> <span><br>
+                                It includes modules for managing customers, categories, brands, suppliers, products, purchases, and orders. The
+                                system allows users to create, edit, delete, and track inventory-related data such as products, purchases, and orders,
+                                along with managing customer and supplier information<br><b>Technologies used: HTML, CSS, JavaScript,Bootstrap,Python, Django,MySQL, Django REST API, Git, XAMPP</b></span></li>
+
+                                <li><b>Parking Management System</b> <span><br>The Django Parking Management System is a web application designed to streamline the management of parking spaces, vehicles, and categories within a parking facility. It provides a user-friendly interface for administrators to monitor parking-related activities, manage vehicle entries and exits, track earnings, and ensure efficient utilization of parking slots.
+                                    <br><b>Technologies used: HTML, CSS, JavaScript,Bootstrap,Python, Django,MySQL, Django REST API, Git, XAMPP</b></span></li>
+
+                                 <li><b>Banking Management System</b><span>
+                                    <br> Django project is a banking application that allows users to register, log in, manage their accounts, make transactions such as deposits, withdrawals, and transfers, view announcements, and perform other banking-related activities. It includes features like pagination for account management and announcements, input validation for registration and login, and caching to enhance performance.
+                                        <br>Technologies used: HTML, CSS, JavaScript,Bootstrap,Python, Django,MySQL, Django REST API, Git, XAMPP</span></li>
+                                        <li><b>Portfolio</b><br><span>My portfolio showcases my skills in web development using HTML, CSS, Bootstrap, and JavaScript. With a clean and responsive design, it highlights my projects and experience effectively. Explore my work to see how I combine creativity with technical expertise."<br><b>Technologies Used: HTML, CSS,Bootstrap JavaScript.</b></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Web design encompasses the process of creating and designing websites, including their layout, structure, content, and visual appearance. It combines elements of graphic design, user experience design (UX), and web development to create a cohesive and functional online presence.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+
+                    <h2>UI/UX Design</h2>
+                    <p>UI (User Interface) design and UX (User Experience) design are crucial aspects of creating digital products such as websites, mobile apps, and software applications. While closely related, they focus on different aspects of the user's interaction with the product</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        App design encompasses the process of creating the visual and interactive elements of a mobile application, focusing on both User Interface (UI) design and User Experience (UX) design. UI design involves designing the look and feel of the app, including layout, colors, typography, icons, and interactive elements like buttons and menus. It aims to create a visually appealing and intuitive interface that aligns with the app's branding and enhances user engagement
+                        </p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Developing a social app for the web involves a structured process starting with defining the app's goals and target audience. This initial phase sets the direction for the entire development process by identifying key features and functionalities that will resonate with users. User stories and wireframes are then created to map out user flows, interactions, and design elements, providing a visual blueprint for the app's layout and navigation.
+                           </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>
+                            Developing a music app entails a series of strategic steps to craft a platform that caters to music enthusiasts' needs. It begins with defining the app's goals, whether focusing on music streaming, discovery, playlist curation, or social interaction around music. Researching the market and target audience helps in understanding user preferences, competition, and industry trends. Once the direction is set, the technology stack, including frontend and backend technologies, is chosen to ensure smooth user experience and robust functionality.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p> Developing an online shopping app involves a meticulous process aimed at creating a user-friendly and efficient platform for users to browse, shop, and complete transactions seamlessly. The initial step is to define the app's objectives, whether it's about offering a wide range of products, providing personalized recommendations, or focusing on customer loyalty programs. Understanding the target audience's demographics, preferences, and shopping behaviors is crucial in tailoring the app's features and user experience</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+            
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vinayregonda123@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6304074594</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vinay2002/"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="images/RESUME_VINAY_REGONDA.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" type="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Messsage" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
+        <div class="copy-right">
+            <p>©2024 VINAY REGONDA <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentag(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+    </script>
+
+   
+    
+</body>
+</html>
